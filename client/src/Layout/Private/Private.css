@@ -1,0 +1,11 @@
+.Success-Title {
+  color: #fff;
+  font-weight: lighter;
+}
+
+.Private-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 48px);
+}

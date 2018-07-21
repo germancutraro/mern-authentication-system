@@ -1,0 +1,30 @@
+.NavBar-Wrapper {
+  background-color: #040209;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.User-Info-Wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.User-Name {
+  color: #fff;
+  padding: 0 15px;
+}
+
+.User-Avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.NavBar-Auth-Links {
+  color: #fff;
+  margin-right: 1.5rem;
+}

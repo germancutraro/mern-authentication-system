@@ -1,0 +1,87 @@
+.Register-Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right top, #81aefe, #9da6fe, #ba9cf8, #d690ed, #ee84db);
+  height: 100vh;
+}
+
+.Register-SubWrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  position: relative;
+}
+
+.Register-Wrapper input {
+  display: block;
+  margin: 1rem;
+}
+
+.Register-Input {
+  height: 35px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #D9D9D9;
+  outline: none;
+}
+
+.invalid {
+  border-bottom: 1px solid red;
+}
+
+.Register-Form-Title {
+  font-weight: lighter;
+  padding: 1rem .9rem;
+  background-image: linear-gradient(to right top, #81aefe, #9da6fe, #ba9cf8, #d690ed, #ee84db);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+::placeholder {
+  color: #ddd;
+}
+
+.hr {
+  height: 1px;
+  width: 92%;
+  margin: 0 auto;
+  background-color: #ddd;
+  margin-bottom: 2rem;
+}
+
+.Register-Button {
+  background-color: inherit;
+  outline: none;
+  width: 6rem;
+  height: 2.5rem;
+  border: 1px solid #ba9cf8;
+  border-radius: 20px;  
+  cursor: pointer; 
+  background-image: linear-gradient(to right top, #81aefe, #9da6fe, #ba9cf8, #d690ed, #ee84db);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  bottom: .6rem;
+  right: 30px;
+
+}
+
+.Register-To-Login {
+  background-image: linear-gradient(to right top, #81aefe, #9da6fe, #ba9cf8, #d690ed, #ee84db);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  left: 33px;
+  bottom: 1.3rem;
+  font-size: 13.5px;
+}
+
+.Register-Login-Link {
+  background-image: linear-gradient(to right top, #81aefe, #9da6fe, #ba9cf8, #d690ed, #ee84db);
+  -webkit-background-clip: text;
+  color: transparent; 
+}
